@@ -1,0 +1,1 @@
+Invoking command in '/home/chaung/f_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaung/f_ws/src/cartographer_ros/cartographer_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/cartographer_ros_msgs

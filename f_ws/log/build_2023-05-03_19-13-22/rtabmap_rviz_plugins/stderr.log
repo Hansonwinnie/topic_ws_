@@ -1,0 +1,13 @@
+CMake Warning at CMakeLists.txt:70 (add_library):
+  Cannot generate a safe runtime search path for target rtabmap_rviz_plugins
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+

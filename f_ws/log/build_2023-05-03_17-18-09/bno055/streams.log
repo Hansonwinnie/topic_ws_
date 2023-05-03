@@ -1,0 +1,55 @@
+[0.992s] Invoking command in '/home/chaung/f_ws/build/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/chaung/f_ws/build/bno055/build
+[1.188s] running develop
+[1.307s] Removing /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055.egg-link (link to .)
+[1.333s] Invoked command in '/home/chaung/f_ws/build/bno055' returned '0': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/chaung/f_ws/build/bno055/build
+[1.336s] Invoking command in '/home/chaung/f_ws/src/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed
+[1.499s] running egg_info
+[1.500s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[1.500s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[1.500s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[1.500s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[1.500s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[1.526s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[1.527s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[1.527s] running build
+[1.527s] running build_py
+[1.527s] running install
+[1.528s] running install_lib
+[1.529s] creating /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055
+[1.529s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/__init__.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055
+[1.529s] creating /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors
+[1.529s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors
+[1.529s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors
+[1.529s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors
+[1.529s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/connectors/uart.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors
+[1.529s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/registers.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055
+[1.530s] creating /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/params
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/params/__init__.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/params
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/params
+[1.530s] creating /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/error_handling
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/error_handling
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/error_handling
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/bno055.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055
+[1.530s] creating /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/sensor
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/sensor
+[1.530s] copying /home/chaung/f_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/sensor
+[1.530s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/__init__.py to __init__.cpython-38.pyc
+[1.531s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors/__init__.py to __init__.cpython-38.pyc
+[1.531s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors/i2c.py to i2c.cpython-38.pyc
+[1.532s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors/Connector.py to Connector.cpython-38.pyc
+[1.532s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/connectors/uart.py to uart.cpython-38.pyc
+[1.532s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/registers.py to registers.cpython-38.pyc
+[1.533s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/params/__init__.py to __init__.cpython-38.pyc
+[1.533s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-38.pyc
+[1.534s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/error_handling/__init__.py to __init__.cpython-38.pyc
+[1.534s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-38.pyc
+[1.534s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/bno055.py to bno055.cpython-38.pyc
+[1.535s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/sensor/__init__.py to __init__.cpython-38.pyc
+[1.535s] byte-compiling /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-38.pyc
+[1.537s] running install_data
+[1.537s] running install_egg_info
+[1.538s] Copying ../../build/bno055/bno055.egg-info to /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055-0.4.1-py3.8.egg-info
+[1.539s] running install_scripts
+[1.551s] Installing bno055 script to /home/chaung/f_ws/install/bno055/lib/bno055
+[1.552s] writing list of installed files to '/home/chaung/f_ws/build/bno055/install.log'
+[1.583s] Invoked command in '/home/chaung/f_ws/src/bno055' returned '0': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed

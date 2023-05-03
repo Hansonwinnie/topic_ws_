@@ -1,0 +1,19 @@
+[100%] Built target rtabmap_viz
+-- Install configuration: ""
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz
+-- Set runtime path of "/home/chaung/f_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz" to ""
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+-- Installing: /home/chaung/f_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml

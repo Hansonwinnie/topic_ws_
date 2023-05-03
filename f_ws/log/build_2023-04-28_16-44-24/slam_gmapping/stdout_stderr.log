@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target transform[0m
+[35m[1mScanning dependencies of target scan_dilute[0m
+[35m[1mScanning dependencies of target slam_gmapping[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/scan_dilute.dir/src/scan_dilute.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable transform[0m
+[ 66%] Built target transform
+[ 83%] [32m[1mLinking CXX executable scan_dilute[0m
+[ 83%] Built target scan_dilute
+[100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[100%] Built target slam_gmapping

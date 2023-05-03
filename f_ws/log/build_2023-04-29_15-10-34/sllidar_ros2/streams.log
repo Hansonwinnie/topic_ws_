@@ -1,0 +1,65 @@
+[0.300s] Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2 -- -j12 -l12
+[0.359s] [35m[1mScanning dependencies of target sllidar_node[0m
+[0.391s] [ 14%] Built target sllidar_client
+[0.410s] [ 21%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[1.603s] In file included from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[1.603s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[1.603s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[1.603s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[1.603s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.604s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.604s]       |                [01;35m[K^[m[K
+[1.604s] In file included from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[1.604s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[1.604s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[1.604s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.604s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.604s]       |                    [01;35m[K^[m[K
+[2.339s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)[m[K’:
+[2.340s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:147:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[2.340s]   147 |     [01;35m[K}[m[K
+[2.340s]       |     [01;35m[K^[m[K
+[3.176s] [ 28%] [32m[1mLinking CXX executable sllidar_node[0m
+[3.334s] [100%] Built target sllidar_node
+[3.345s] Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2 -- -j12 -l12
+[3.380s] Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2
+[3.386s] -- Install configuration: ""
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/gmapping_s2_launch.py
+[3.386s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/gmapping_launch.py
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_gmapping_ros2.rviz
+[3.387s] -- Installing: /home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.387s] -- Set runtime path of "/home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.387s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.388s] -- Installing: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.388s] -- Up-to-date: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.394s] Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2

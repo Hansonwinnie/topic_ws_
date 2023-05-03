@@ -1,0 +1,20 @@
+[  1%] Built target turtlebot3_msgs__cpp
+[ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[ 14%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 25%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[ 36%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[ 47%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[ 59%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[ 70%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[ 80%] Built target turtlebot3_msgs
+[ 81%] Built target turtlebot3_msgs__py
+[ 83%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__python.so[0m
+[ 91%] Built target turtlebot3_msgs__python
+[ 92%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[ 98%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext

@@ -1,0 +1,9 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+  ament_cmake_symlink_install_targets()
+  'rtabmap_rviz_plugins/pcl_rosConfig.cmake' is not a target
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+  CMakeLists.txt:105 (install)
+
+
+make: *** [Makefile:416：cmake_check_build_system] 錯誤 1

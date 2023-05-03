@@ -1,0 +1,1 @@
+Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaung/f_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/sllidar_ros2

@@ -1,0 +1,40 @@
+[0.055s] Invoking command in '/home/chaung/f_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/dynamixel_sdk
+[0.824s] [100%] Built target dynamixel_sdk
+[0.858s] Invoked command in '/home/chaung/f_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/dynamixel_sdk
+[1.024s] Invoking command in '/home/chaung/f_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/dynamixel_sdk
+[1.067s] -- Install configuration: ""
+[1.067s] -- Execute custom install script
+[1.068s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.068s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.071s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.104s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.116s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.127s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.139s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.164s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.177s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.190s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.226s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.242s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.278s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.311s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.342s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.381s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.407s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.426s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.439s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.455s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.495s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.507s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.522s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.531s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.541s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.553s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.564s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.575s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.608s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.620s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.630s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.643s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.659s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.684s] Invoked command in '/home/chaung/f_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/dynamixel_sdk

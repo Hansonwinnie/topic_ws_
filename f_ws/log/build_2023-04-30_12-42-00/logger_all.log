@@ -1,0 +1,582 @@
+[0.717s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.717s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbb0d70f0d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbb0d70f0d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbb0d70f610>)
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.762s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chaung/f_ws'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ros'
+[0.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/jenkins) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.797s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.821s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/chaung/f_ws/install
+[0.822s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 312 installed packages in /opt/ros/foxy
+[0.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.889s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cartographer_ros' is in: /home/chaung/f_ws/install/cartographer_ros, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cartographer_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.890s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/bno055', 'merge_install': False, 'path': '/home/chaung/f_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.891s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/cartographer', 'merge_install': False, 'path': '/home/chaung/f_ws/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.892s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/chaung/f_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.892s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/openslam_gmapping', 'merge_install': False, 'path': '/home/chaung/f_ws/src/openslam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.893s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/chaung/f_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.894s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/chaung/f_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.895s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chaung/f_ws/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chaung/f_ws/install/slam_gmapping', 'merge_install': False, 'path': '/home/chaung/f_ws/src/slam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[0.895s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.898s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/chaung/f_ws/src/cartographer' with build type 'cmake'
+[0.898s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaung/f_ws/src/cartographer'
+[0.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.910s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaung/f_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.910s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaung/f_ws/src/cartographer_ros/cartographer_ros_msgs'
+[0.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaung/f_ws/src/openslam_gmapping' with build type 'ament_cmake'
+[0.916s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaung/f_ws/src/openslam_gmapping'
+[0.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.922s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chaung/f_ws/src/bno055' with build type 'ament_python'
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[0.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.930s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaung/f_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.930s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaung/f_ws/src/sllidar_ros2'
+[0.931s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer -- -j12 -l12
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros_msgs -- -j12 -l12
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/openslam_gmapping -- -j12 -l12
+[1.114s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chaung/f_ws/src/bno055'
+[1.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2 -- -j12 -l12
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/openslam_gmapping -- -j12 -l12
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/openslam_gmapping
+[1.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[1.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/openslam_gmapping
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping' for CMake module files
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping' for CMake config files
+[1.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/lib'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/bin'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/lib/python3.8/site-packages'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/bin'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[1.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros_msgs -- -j12 -l12
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2 -- -j12 -l12
+[1.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping' for CMake module files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping' for CMake config files
+[1.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/lib'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/lib/python3.8/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/openslam_gmapping/bin'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[1.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaung/f_ws/src/slam_gmapping' with build type 'ament_cmake'
+[1.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaung/f_ws/src/slam_gmapping'
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping -- -j12 -l12
+[1.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2
+[1.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2' for CMake module files
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2' for CMake config files
+[1.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/lib'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/bin'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/bin'
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping -- -j12 -l12
+[1.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/lib'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/sllidar_ros2/bin'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/slam_gmapping
+[1.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping' for CMake module files
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping' for CMake config files
+[1.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/lib'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/bin'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/lib/python3.8/site-packages'
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/slam_gmapping
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/bin'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[1.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer -- -j12 -l12
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping' for CMake module files
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/lib'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/bin'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/lib/python3.8/site-packages'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/slam_gmapping/bin'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[1.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer_ros_msgs
+[1.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs' for CMake module files
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer_ros_msgs
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs' for CMake config files
+[1.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/lib'
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/bin'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages'
+[1.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'pythonpath')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.sh'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/bin'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/src/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed
+[1.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs' for CMake module files
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs' for CMake config files
+[1.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/lib'
+[1.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/bin'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages'
+[1.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'pythonpath')
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.sh'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros_msgs/bin'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055' for CMake module files
+[1.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/src/bno055' returned '0': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055' for CMake config files
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055/lib'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055/bin'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages'
+[1.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath')
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/bno055/share/bno055/hook/pythonpath.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/bno055/share/bno055/hook/pythonpath.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/bno055/share/bno055/hook/pythonpath.sh'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/bno055/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/bno055/share/bno055/package.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/bno055/share/bno055/package.dsv'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/bno055/share/bno055/package.sh'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/bno055/share/bno055/package.bash'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/bno055/share/bno055/package.zsh'
+[1.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/bno055/share/colcon-core/packages/bno055)
+[1.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path')
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[1.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[1.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer' for CMake module files
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer' for CMake config files
+[2.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'cmake_prefix_path')
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer/lib'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer/bin'
+[2.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'path')
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/path.ps1'
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/path.dsv'
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/path.sh'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer/lib/pkgconfig/cartographer.pc'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer/lib/python3.8/site-packages'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer/bin'
+[2.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pythonscriptspath')
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer/share/cartographer/package.ps1'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/cartographer/share/cartographer/package.dsv'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer/share/cartographer/package.sh'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer/share/cartographer/package.bash'
+[2.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer/share/cartographer/package.zsh'
+[2.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/cartographer/share/colcon-core/packages/cartographer)
+[2.011s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chaung/f_ws/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[2.011s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chaung/f_ws/src/cartographer_ros/cartographer_ros'
+[2.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros -- -j12 -l12
+[2.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros -- -j12 -l12
+[2.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chaung/f_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer_ros
+[2.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros' for CMake module files
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chaung/f_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer_ros
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros' for CMake config files
+[2.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/lib'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/bin'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/lib/python3.8/site-packages'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/bin'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[2.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[2.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros' for CMake module files
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros' for CMake config files
+[2.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/lib'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/bin'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/lib/python3.8/site-packages'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/chaung/f_ws/install/cartographer_ros/bin'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[2.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chaung/f_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[2.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.308s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.315s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.316s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.335s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaung/f_ws/install/local_setup.ps1'
+[2.338s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chaung/f_ws/install/_local_setup_util_ps1.py'
+[2.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaung/f_ws/install/setup.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaung/f_ws/install/local_setup.sh'
+[2.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chaung/f_ws/install/_local_setup_util_sh.py'
+[2.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaung/f_ws/install/setup.sh'
+[2.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaung/f_ws/install/local_setup.bash'
+[2.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaung/f_ws/install/setup.bash'
+[2.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chaung/f_ws/install/local_setup.zsh'
+[2.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chaung/f_ws/install/setup.zsh'

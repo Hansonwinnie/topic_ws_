@@ -1,0 +1,37 @@
+In file included from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+                 from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+   58 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+  295 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:437:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+  437 |     }[01;31m[K.[m[Kangle_increment
+      |      [01;31m[K^[m[K
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In constructor ‘[01m[KSLlidarNode::SLlidarNode()[m[K’:
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:62:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+   62 |       [01;31m[Kscan_pub[m[K = this->create_publisher<sensor_msgs::msg::LaserScan>("scan", rclcpp::QoS(rclcpp::KeepLast(10)));
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kint SLlidarNode::work_loop()[m[K’:
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:390:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+  390 |                         publish_scan([01;31m[Kscan_pub[m[K, angle_compensate_nodes, angle_compensate_nodes_count,
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:412:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+  412 |                         publish_scan([01;31m[Kscan_pub[m[K, &nodes[start_node], end_node-start_node +1,
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:421:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+  421 |                     publish_scan([01;31m[Kscan_pub[m[K, nodes, count,
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)[m[K’:
+[01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:147:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  147 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/sllidar_node.dir/build.make:63：CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o] 錯誤 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sllidar_node.dir/all] 錯誤 2
+make: *** [Makefile:141：all] 錯誤 2

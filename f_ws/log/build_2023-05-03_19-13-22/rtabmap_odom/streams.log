@@ -1,0 +1,175 @@
+[0.012s] Invoking command in '/home/chaung/f_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_odom -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_odom
+[0.023s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.176s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found image_geometry: 3.0.7 (/opt/ros/foxy/share/image_geometry/cmake)
+[0.428s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[0.431s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.433s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.487s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.618s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.740s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[1.112s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.174s] -- The imported target "vtkParseOGLExt" references the file
+[1.174s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.174s] but this file does not exist.  Possible reasons include:
+[1.174s] * The file was deleted, renamed, or moved to another location.
+[1.174s] * An install or uninstall procedure did not complete successfully.
+[1.174s] * The installation package was faulty and contained
+[1.174s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.174s] but not all the files it references.
+[1.175s] 
+[1.175s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.175s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.175s] but this file does not exist.  Possible reasons include:
+[1.175s] * The file was deleted, renamed, or moved to another location.
+[1.175s] * An install or uninstall procedure did not complete successfully.
+[1.175s] * The installation package was faulty and contained
+[1.175s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.176s] but not all the files it references.
+[1.176s] 
+[1.176s] -- The imported target "vtk" references the file
+[1.176s]    "/usr/bin/vtk"
+[1.176s] but this file does not exist.  Possible reasons include:
+[1.176s] * The file was deleted, renamed, or moved to another location.
+[1.176s] * An install or uninstall procedure did not complete successfully.
+[1.176s] * The installation package was faulty and contained
+[1.176s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.176s] but not all the files it references.
+[1.177s] 
+[1.177s] -- The imported target "pvtk" references the file
+[1.177s]    "/usr/bin/pvtk"
+[1.177s] but this file does not exist.  Possible reasons include:
+[1.177s] * The file was deleted, renamed, or moved to another location.
+[1.177s] * An install or uninstall procedure did not complete successfully.
+[1.177s] * The installation package was faulty and contained
+[1.177s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.177s] but not all the files it references.
+[1.177s] 
+[1.193s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.197s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.210s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.214s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.224s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.229s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.439s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.451s] -- Found rtabmap_conversions: 0.21.1 (/home/chaung/f_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[1.699s] -- Found rtabmap_util: 0.21.1 (/home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+[2.352s] -- Configuring done
+[2.383s] CMake Warning at CMakeLists.txt:65 (add_library):
+[2.383s]   Cannot generate a safe runtime search path for target rtabmap_odom because
+[2.383s]   files in some directories may conflict with libraries in implicit
+[2.383s]   directories:
+[2.383s] 
+[2.383s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.383s]       /opt/ros/foxy/lib
+[2.383s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.383s]       /opt/ros/foxy/lib
+[2.383s] 
+[2.383s]   Some of these libraries may not be found correctly.
+[2.383s] 
+[2.383s] 
+[2.424s] CMake Warning at CMakeLists.txt:71 (add_library):
+[2.424s]   Cannot generate a safe runtime search path for target rtabmap_odom_plugins
+[2.424s]   because files in some directories may conflict with libraries in implicit
+[2.425s]   directories:
+[2.425s] 
+[2.425s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.425s]       /opt/ros/foxy/lib
+[2.425s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.425s]       /opt/ros/foxy/lib
+[2.425s] 
+[2.425s]   Some of these libraries may not be found correctly.
+[2.425s] 
+[2.425s] 
+[2.467s] CMake Warning at CMakeLists.txt:83 (add_executable):
+[2.467s]   Cannot generate a safe runtime search path for target rtabmap_rgbd_odometry
+[2.467s]   because files in some directories may conflict with libraries in implicit
+[2.467s]   directories:
+[2.467s] 
+[2.467s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.467s]       /opt/ros/foxy/lib
+[2.467s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.467s]       /opt/ros/foxy/lib
+[2.467s] 
+[2.468s]   Some of these libraries may not be found correctly.
+[2.468s] 
+[2.468s] 
+[2.512s] CMake Warning at CMakeLists.txt:93 (add_executable):
+[2.512s]   Cannot generate a safe runtime search path for target rtabmap_icp_odometry
+[2.512s]   because files in some directories may conflict with libraries in implicit
+[2.512s]   directories:
+[2.512s] 
+[2.512s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.513s]       /opt/ros/foxy/lib
+[2.513s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.513s]       /opt/ros/foxy/lib
+[2.513s] 
+[2.513s]   Some of these libraries may not be found correctly.
+[2.513s] 
+[2.513s] 
+[2.555s] CMake Warning at CMakeLists.txt:88 (add_executable):
+[2.555s]   Cannot generate a safe runtime search path for target
+[2.555s]   rtabmap_stereo_odometry because files in some directories may conflict with
+[2.555s]   libraries in implicit directories:
+[2.555s] 
+[2.556s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.556s]       /opt/ros/foxy/lib
+[2.556s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.556s]       /opt/ros/foxy/lib
+[2.556s] 
+[2.556s]   Some of these libraries may not be found correctly.
+[2.556s] 
+[2.556s] 
+[2.580s] -- Generating done
+[2.582s] -- Build files have been written to: /home/chaung/f_ws/build/rtabmap_odom
+[2.593s] Invoked command in '/home/chaung/f_ws/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_odom -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_odom
+[2.595s] Invoking command in '/home/chaung/f_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_odom -- -j12 -l12
+[2.664s] [ 16%] Built target rtabmap_odom
+[2.713s] [ 50%] Built target rtabmap_odom_plugins
+[2.747s] [100%] Built target rtabmap_icp_odometry
+[2.747s] [100%] Built target rtabmap_rgbd_odometry
+[2.747s] [100%] Built target rtabmap_stereo_odometry
+[2.753s] Invoked command in '/home/chaung/f_ws/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_odom -- -j12 -l12
+[2.781s] Invoking command in '/home/chaung/f_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap_odom
+[2.787s] -- Install configuration: ""
+[2.788s] -- Execute custom install script
+[2.788s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+[2.788s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+[2.788s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+[2.789s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+[2.789s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+[2.789s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+[2.789s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+[2.789s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+[2.790s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+[2.790s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+[2.790s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+[2.790s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+[2.790s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+[2.791s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+[2.791s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+[2.791s] -- Symlinking: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+[2.800s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+[2.800s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+[2.800s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.802s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.803s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+[2.803s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+[2.803s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+[2.803s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+[2.803s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/package.xml
+[2.804s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/lib/librtabmap_odom.so
+[2.804s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+[2.804s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/include
+[2.804s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/include/rtabmap_odom
+[2.804s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+[2.804s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+[2.805s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+[2.805s] -- Installing: /home/chaung/f_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-noconfig.cmake
+[2.816s] Invoked command in '/home/chaung/f_ws/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap_odom

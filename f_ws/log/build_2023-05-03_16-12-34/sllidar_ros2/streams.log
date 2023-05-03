@@ -1,0 +1,45 @@
+[0.733s] Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2
+[0.832s] [  7%] [32m[1mLinking CXX executable sllidar_node[0m
+[0.863s] [ 14%] [32m[1mLinking CXX executable sllidar_client[0m
+[1.477s] [ 92%] Built target sllidar_node
+[1.550s] [100%] Built target sllidar_client
+[1.571s] Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2
+[1.634s] Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2
+[1.645s] -- Install configuration: ""
+[1.646s] -- Execute custom install script
+[1.654s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/gmapping_launch.py
+[1.668s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/gmapping_s2_launch.py
+[1.678s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.696s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[1.702s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.715s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.727s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.737s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.746s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.756s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[1.766s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.776s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.783s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.792s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.803s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_gmapping_ros2.rviz
+[1.812s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.821s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.831s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.841s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.851s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.861s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.871s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.881s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.890s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.900s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.911s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.920s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.929s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.938s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.947s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.955s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.964s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.972s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.982s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.990s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.004s] Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2

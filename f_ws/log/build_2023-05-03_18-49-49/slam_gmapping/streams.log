@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake /home/chaung/f_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/slam_gmapping
+[0.026s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[0.026s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.578s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.592s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.649s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.653s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.048s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.054s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.075s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.135s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.194s] -- Found openslam_gmapping: 0.1.2 (/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.196s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.255s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.256s] -- Configured cppcheck include dirs: /home/chaung/f_ws/src/slam_gmapping/include
+[1.256s] -- Configured cppcheck exclude dirs and/or files: 
+[1.256s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.256s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.256s] -- Added test 'uncrustify' to check C / C++ code style
+[1.257s] -- Configured uncrustify additional arguments: 
+[1.257s] -- Added test 'xmllint' to check XML markup files
+[1.258s] -- Configuring done
+[1.283s] -- Generating done
+[1.284s] -- Build files have been written to: /home/chaung/f_ws/build/slam_gmapping
+[1.291s] Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake /home/chaung/f_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/slam_gmapping
+[1.291s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping -- -j12 -l12
+[1.342s] [ 33%] Built target scan_dilute
+[1.343s] [ 66%] Built target slam_gmapping
+[1.344s] [100%] Built target transform
+[1.351s] Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping -- -j12 -l12
+[1.373s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/chaung/f_ws/build/slam_gmapping
+[1.380s] -- Install configuration: ""
+[1.381s] -- Execute custom install script
+[1.381s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[1.381s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/lib/slam_gmapping/transform
+[1.381s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/lib/slam_gmapping/scan_dilute
+[1.382s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[1.382s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[1.382s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[1.382s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[1.382s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[1.382s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[1.383s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[1.383s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[1.383s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[1.383s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[1.383s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[1.383s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[1.393s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[1.393s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[1.393s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[1.393s] -- Up-to-date symlink: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[1.397s] Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/chaung/f_ws/build/slam_gmapping

@@ -1,0 +1,1 @@
+Invoking command in '/home/chaung/f_ws/build/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chaung/f_ws/build/bno055/build --no-deps install_data

@@ -1,0 +1,65 @@
+CMake Warning at CMakeLists.txt:65 (add_library):
+  Cannot generate a safe runtime search path for target rtabmap_odom because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:71 (add_library):
+  Cannot generate a safe runtime search path for target rtabmap_odom_plugins
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:83 (add_executable):
+  Cannot generate a safe runtime search path for target rtabmap_rgbd_odometry
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:93 (add_executable):
+  Cannot generate a safe runtime search path for target rtabmap_icp_odometry
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:88 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_stereo_odometry because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+

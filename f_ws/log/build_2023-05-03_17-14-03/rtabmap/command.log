@@ -1,0 +1,4 @@
+Invoking command in '/home/chaung/f_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap -- -j12 -l12
+Invoked command in '/home/chaung/f_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap -- -j12 -l12
+Invoking command in '/home/chaung/f_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap
+Invoked command in '/home/chaung/f_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap

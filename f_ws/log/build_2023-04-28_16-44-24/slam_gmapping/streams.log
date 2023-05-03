@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/half/install/cartographer_ros_msgs:/home/chaung/half/install/v_bot_control:/home/chaung/half/install/sllidar_ros2:/home/chaung/half/install/openslam_gmapping:/home/chaung/half/install/nav_2d_msgs:/home/chaung/half/install/nav2_common:/home/chaung/half/install/cartographer_ros:/home/chaung/half/install/cartographer:/home/chaung/half/install/slam_gmapping:/home/chaung/half/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target transform[0m
+[0.055s] [35m[1mScanning dependencies of target scan_dilute[0m
+[0.056s] [35m[1mScanning dependencies of target slam_gmapping[0m
+[0.087s] [ 16%] [32mBuilding CXX object CMakeFiles/scan_dilute.dir/src/scan_dilute.cpp.o[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[3.186s] [ 66%] [32m[1mLinking CXX executable transform[0m
+[3.322s] [ 66%] Built target transform
+[4.175s] [ 83%] [32m[1mLinking CXX executable scan_dilute[0m
+[4.342s] [ 83%] Built target scan_dilute
+[6.633s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[6.887s] [100%] Built target slam_gmapping

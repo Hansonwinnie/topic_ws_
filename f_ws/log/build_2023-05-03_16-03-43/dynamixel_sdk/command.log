@@ -1,0 +1,1 @@
+Invoking command in '/home/chaung/f_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaung/f_ws/src/utils/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/dynamixel_sdk

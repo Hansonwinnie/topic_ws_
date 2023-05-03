@@ -1,0 +1,8 @@
+/home/chaung/f_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+/home/chaung/f_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+/home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+/home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+/home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+/home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+/home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+/home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-noconfig.cmake

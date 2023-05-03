@@ -1,0 +1,13 @@
+[0.019s] Invoking command in '/home/chaung/f_ws/build/rtabmap_rviz_plugins': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_rviz_plugins
+[0.055s] [ 20%] [34m[1mGenerating include/rtabmap_rviz_plugins/moc_MapCloudDisplay.cpp[0m
+[0.055s] [ 20%] [34m[1mGenerating include/rtabmap_rviz_plugins/moc_MapGraphDisplay.cpp[0m
+[0.056s] [ 30%] [34m[1mGenerating include/rtabmap_rviz_plugins/moc_InfoDisplay.cpp[0m
+[0.067s] [35m[1mScanning dependencies of target rtabmap_rviz_plugins[0m
+[0.405s] [ 40%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapCloudDisplay.cpp.o[0m
+[0.406s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapGraphDisplay.cpp.o[0m
+[0.406s] [ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/InfoDisplay.cpp.o[0m
+[0.410s] [ 70%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/include/rtabmap_rviz_plugins/moc_MapGraphDisplay.cpp.o[0m
+[0.416s] [ 80%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/include/rtabmap_rviz_plugins/moc_InfoDisplay.cpp.o[0m
+[0.418s] [ 90%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/include/rtabmap_rviz_plugins/moc_MapCloudDisplay.cpp.o[0m
+[27.351s] [100%] [32m[1mLinking CXX shared library librtabmap_rviz_plugins.so[0m
+[35.253s] [100%] Built target rtabmap_rviz_plugins

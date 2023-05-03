@@ -1,0 +1,317 @@
+[0.018s] Invoking command in '/home/chaung/f_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_util
+[0.045s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.058s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.063s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.063s] ** WARNING ** io features related to pcap will be disabled
+[0.063s] ** WARNING ** io features related to png will be disabled
+[0.105s] -- The imported target "vtkParseOGLExt" references the file
+[0.105s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.105s] but this file does not exist.  Possible reasons include:
+[0.105s] * The file was deleted, renamed, or moved to another location.
+[0.105s] * An install or uninstall procedure did not complete successfully.
+[0.105s] * The installation package was faulty and contained
+[0.105s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.105s] but not all the files it references.
+[0.105s] 
+[0.106s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.106s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.106s] but this file does not exist.  Possible reasons include:
+[0.106s] * The file was deleted, renamed, or moved to another location.
+[0.106s] * An install or uninstall procedure did not complete successfully.
+[0.106s] * The installation package was faulty and contained
+[0.106s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.106s] but not all the files it references.
+[0.106s] 
+[0.106s] -- The imported target "vtk" references the file
+[0.106s]    "/usr/bin/vtk"
+[0.106s] but this file does not exist.  Possible reasons include:
+[0.106s] * The file was deleted, renamed, or moved to another location.
+[0.106s] * An install or uninstall procedure did not complete successfully.
+[0.106s] * The installation package was faulty and contained
+[0.106s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.107s] but not all the files it references.
+[0.107s] 
+[0.107s] -- The imported target "pvtk" references the file
+[0.107s]    "/usr/bin/pvtk"
+[0.107s] but this file does not exist.  Possible reasons include:
+[0.107s] * The file was deleted, renamed, or moved to another location.
+[0.107s] * An install or uninstall procedure did not complete successfully.
+[0.107s] * The installation package was faulty and contained
+[0.107s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.107s] but not all the files it references.
+[0.107s] 
+[0.117s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.139s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.162s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.166s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.175s] -- looking for PCL_COMMON
+[0.176s] -- looking for PCL_OCTREE
+[0.176s] -- looking for PCL_IO
+[0.176s] -- looking for PCL_KDTREE
+[0.177s] -- looking for PCL_SEARCH
+[0.177s] -- looking for PCL_SURFACE
+[0.178s] -- looking for PCL_FILTERS
+[0.178s] -- looking for PCL_2D
+[0.178s] -- looking for PCL_FEATURES
+[0.179s] -- looking for PCL_REGISTRATION
+[0.179s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.179s] -- looking for PCL_GEOMETRY
+[0.180s] -- looking for PCL_ML
+[0.180s] -- looking for PCL_SEGMENTATION
+[0.181s] -- looking for PCL_VISUALIZATION
+[0.193s] -- RTABMap=rtabmap::utilite;rtabmap::core;rtabmap::gui
+[0.193s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.215s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.351s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.358s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.372s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.620s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.621s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.751s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.787s] -- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[0.875s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.928s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.934s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.133s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.136s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.266s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[1.546s] -- Found rtabmap_msgs: 0.21.1 (/home/chaung/f_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[1.663s] -- Found rtabmap_conversions: 0.21.1 (/home/chaung/f_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[1.776s] -- rtabmap_conversions_TARGETS = rtabmap_conversions::rtabmap_conversions
+[1.777s] -- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+[1.828s] -- WITH octomap_msgs
+[2.588s] -- Configuring done
+[2.623s] CMake Warning at CMakeLists.txt:117 (add_executable):
+[2.623s]   Cannot generate a safe runtime search path for target rtabmap_rgbd_relay
+[2.623s]   because files in some directories may conflict with libraries in implicit
+[2.623s]   directories:
+[2.623s] 
+[2.623s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.623s]       /opt/ros/foxy/lib
+[2.624s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.624s]       /opt/ros/foxy/lib
+[2.624s] 
+[2.624s]   Some of these libraries may not be found correctly.
+[2.624s] 
+[2.624s] 
+[2.662s] CMake Warning at CMakeLists.txt:147 (add_executable):
+[2.662s]   Cannot generate a safe runtime search path for target
+[2.662s]   rtabmap_point_cloud_xyz because files in some directories may conflict with
+[2.662s]   libraries in implicit directories:
+[2.662s] 
+[2.662s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.662s]       /opt/ros/foxy/lib
+[2.662s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.662s]       /opt/ros/foxy/lib
+[2.662s] 
+[2.662s]   Some of these libraries may not be found correctly.
+[2.662s] 
+[2.662s] 
+[2.700s] CMake Warning at CMakeLists.txt:152 (add_executable):
+[2.700s]   Cannot generate a safe runtime search path for target
+[2.700s]   rtabmap_point_cloud_xyzrgb because files in some directories may conflict
+[2.700s]   with libraries in implicit directories:
+[2.700s] 
+[2.701s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.701s]       /opt/ros/foxy/lib
+[2.701s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.701s]       /opt/ros/foxy/lib
+[2.701s] 
+[2.701s]   Some of these libraries may not be found correctly.
+[2.701s] 
+[2.701s] 
+[2.740s] CMake Warning at CMakeLists.txt:122 (add_executable):
+[2.740s]   Cannot generate a safe runtime search path for target rtabmap_rgbd_split
+[2.740s]   because files in some directories may conflict with libraries in implicit
+[2.740s]   directories:
+[2.740s] 
+[2.740s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.740s]       /opt/ros/foxy/lib
+[2.740s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.740s]       /opt/ros/foxy/lib
+[2.741s] 
+[2.741s]   Some of these libraries may not be found correctly.
+[2.741s] 
+[2.741s] 
+[2.779s] CMake Warning at CMakeLists.txt:172 (add_executable):
+[2.779s]   Cannot generate a safe runtime search path for target
+[2.779s]   rtabmap_obstacles_detection because files in some directories may conflict
+[2.779s]   with libraries in implicit directories:
+[2.779s] 
+[2.779s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.779s]       /opt/ros/foxy/lib
+[2.779s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.779s]       /opt/ros/foxy/lib
+[2.780s] 
+[2.780s]   Some of these libraries may not be found correctly.
+[2.780s] 
+[2.780s] 
+[2.818s] CMake Warning at CMakeLists.txt:142 (add_executable):
+[2.818s]   Cannot generate a safe runtime search path for target
+[2.818s]   rtabmap_lidar_deskewing because files in some directories may conflict with
+[2.818s]   libraries in implicit directories:
+[2.818s] 
+[2.818s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.818s]       /opt/ros/foxy/lib
+[2.818s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.819s]       /opt/ros/foxy/lib
+[2.819s] 
+[2.819s]   Some of these libraries may not be found correctly.
+[2.819s] 
+[2.819s] 
+[2.857s] CMake Warning at CMakeLists.txt:167 (add_executable):
+[2.857s]   Cannot generate a safe runtime search path for target
+[2.857s]   rtabmap_pointcloud_to_depthimage because files in some directories may
+[2.857s]   conflict with libraries in implicit directories:
+[2.857s] 
+[2.857s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.858s]       /opt/ros/foxy/lib
+[2.858s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.858s]       /opt/ros/foxy/lib
+[2.858s] 
+[2.858s]   Some of these libraries may not be found correctly.
+[2.858s] 
+[2.858s] 
+[2.896s] CMake Warning at CMakeLists.txt:177 (add_executable):
+[2.896s]   Cannot generate a safe runtime search path for target
+[2.896s]   rtabmap_point_cloud_aggregator because files in some directories may
+[2.896s]   conflict with libraries in implicit directories:
+[2.896s] 
+[2.897s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.897s]       /opt/ros/foxy/lib
+[2.897s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.897s]       /opt/ros/foxy/lib
+[2.897s] 
+[2.897s]   Some of these libraries may not be found correctly.
+[2.897s] 
+[2.897s] 
+[2.935s] CMake Warning at CMakeLists.txt:94 (add_library):
+[2.935s]   Cannot generate a safe runtime search path for target rtabmap_util_plugins
+[2.935s]   because files in some directories may conflict with libraries in implicit
+[2.935s]   directories:
+[2.935s] 
+[2.935s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.935s]       /opt/ros/foxy/lib
+[2.935s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.935s]       /opt/ros/foxy/lib
+[2.935s] 
+[2.935s]   Some of these libraries may not be found correctly.
+[2.935s] 
+[2.936s] 
+[2.974s] CMake Warning at CMakeLists.txt:182 (add_executable):
+[2.974s]   Cannot generate a safe runtime search path for target
+[2.974s]   rtabmap_point_cloud_assembler because files in some directories may
+[2.974s]   conflict with libraries in implicit directories:
+[2.974s] 
+[2.974s]     runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.974s]       /opt/ros/foxy/lib
+[2.974s]     runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.974s]       /opt/ros/foxy/lib
+[2.975s] 
+[2.975s]   Some of these libraries may not be found correctly.
+[2.975s] 
+[2.975s] 
+[2.996s] -- Generating done
+[2.998s] -- Build files have been written to: /home/chaung/f_ws/build/rtabmap_util
+[3.011s] Invoked command in '/home/chaung/f_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_util
+[3.014s] Invoking command in '/home/chaung/f_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_util
+[3.068s] [35m[1mScanning dependencies of target rtabmap_util_plugins[0m
+[3.125s] [  6%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyzrgb.cpp.o[0m
+[3.126s] [  6%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o[0m
+[3.126s] [ 10%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[3.126s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/pointcloud_to_depthimage.cpp.o[0m
+[3.128s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o[0m
+[3.129s] [ 20%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_aggregator.cpp.o[0m
+[15.520s] [ 24%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[18.580s] [ 27%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/lidar_deskewing.cpp.o[0m
+[19.749s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[19.749s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_split.cpp.o[0m
+[34.565s] [ 37%] [32m[1mLinking CXX shared library librtabmap_util_plugins.so[0m
+[38.525s] [ 37%] Built target rtabmap_util_plugins
+[38.538s] [35m[1mScanning dependencies of target rtabmap_rgbd_relay[0m
+[38.538s] [35m[1mScanning dependencies of target rtabmap_rgbd_split[0m
+[38.538s] [35m[1mScanning dependencies of target rtabmap_lidar_deskewing[0m
+[38.538s] [35m[1mScanning dependencies of target rtabmap_point_cloud_xyzrgb[0m
+[38.539s] [35m[1mScanning dependencies of target rtabmap_point_cloud_xyz[0m
+[38.539s] [35m[1mScanning dependencies of target rtabmap_obstacles_detection[0m
+[38.553s] [ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_split.dir/src/RGBDSplitNode.cpp.o[0m
+[38.553s] [ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[38.553s] [ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_lidar_deskewing.dir/src/LidarDeskewingNode.cpp.o[0m
+[38.554s] [ 51%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyz.dir/src/PointCloudXYZNode.cpp.o[0m
+[38.556s] [ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/src/PointCloudXYZRGBNode.cpp.o[0m
+[38.562s] [ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_obstacles_detection.dir/src/ObstaclesDetectionNode.cpp.o[0m
+[40.145s] [ 62%] [32m[1mLinking CXX executable rgbd_relay[0m
+[40.155s] [ 65%] [32m[1mLinking CXX executable lidar_deskewing[0m
+[40.191s] [ 68%] [32m[1mLinking CXX executable rgbd_split[0m
+[42.699s] [ 72%] [32m[1mLinking CXX executable point_cloud_xyz[0m
+[44.196s] [ 75%] [32m[1mLinking CXX executable point_cloud_xyzrgb[0m
+[44.882s] [ 75%] Built target rtabmap_lidar_deskewing
+[44.896s] [35m[1mScanning dependencies of target rtabmap_pointcloud_to_depthimage[0m
+[44.915s] [ 79%] [32mBuilding CXX object CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o[0m
+[45.007s] [ 79%] Built target rtabmap_rgbd_split
+[45.019s] [35m[1mScanning dependencies of target rtabmap_point_cloud_aggregator[0m
+[45.036s] [ 82%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_aggregator.dir/src/PointCloudAggregatorNode.cpp.o[0m
+[45.517s] [ 82%] Built target rtabmap_rgbd_relay
+[45.531s] [35m[1mScanning dependencies of target rtabmap_point_cloud_assembler[0m
+[45.561s] [ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[46.738s] [ 89%] [32m[1mLinking CXX executable obstacles_detection[0m
+[47.009s] [ 93%] [32m[1mLinking CXX executable point_cloud_aggregator[0m
+[47.215s] [ 93%] Built target rtabmap_point_cloud_xyz
+[47.374s] [ 96%] [32m[1mLinking CXX executable pointcloud_to_depthimage[0m
+[48.214s] [ 96%] Built target rtabmap_point_cloud_xyzrgb
+[50.807s] [ 96%] Built target rtabmap_obstacles_detection
+[50.835s] [ 96%] Built target rtabmap_point_cloud_aggregator
+[51.193s] [ 96%] Built target rtabmap_pointcloud_to_depthimage
+[53.031s] [100%] [32m[1mLinking CXX executable point_cloud_assembler[0m
+[55.067s] [100%] Built target rtabmap_point_cloud_assembler
+[55.077s] Invoked command in '/home/chaung/f_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_util
+[55.128s] Invoking command in '/home/chaung/f_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap_util
+[55.138s] -- Install configuration: ""
+[55.139s] -- Execute custom install script
+[55.139s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/environment/library_path.sh
+[55.139s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/environment/library_path.dsv
+[55.139s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/transform_to_tf.py
+[55.139s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/yaml_to_camera_info.py
+[55.140s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/rgbd_relay
+[55.140s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/rgbd_split
+[55.140s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/lidar_deskewing
+[55.140s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyz
+[55.140s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyzrgb
+[55.140s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/pointcloud_to_depthimage
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/obstacles_detection
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_aggregator
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_assembler
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/ament_index/resource_index/package_run_dependencies/rtabmap_util
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/ament_index/resource_index/parent_prefix_path/rtabmap_util
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.sh
+[55.141s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.dsv
+[55.142s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/environment/path.sh
+[55.142s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/environment/path.dsv
+[55.142s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/local_setup.bash
+[55.142s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/local_setup.sh
+[55.142s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/local_setup.zsh
+[55.142s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/local_setup.dsv
+[55.142s] -- Symlinking: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/package.dsv
+[55.156s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/ament_index/resource_index/packages/rtabmap_util
+[55.156s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/ament_index/resource_index/rclcpp_components/rtabmap_util
+[55.157s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.157s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.157s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_targets-extras.cmake
+[55.157s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_libraries-extras.cmake
+[55.158s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig.cmake
+[55.158s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig-version.cmake
+[55.158s] -- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/package.xml
+[55.158s] -- Installing: /home/chaung/f_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so
+[55.181s] -- Set runtime path of "/home/chaung/f_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so" to ""
+[55.181s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_util/include
+[55.181s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util
+[55.181s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+[55.181s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util/visibility.h
+[55.181s] -- Up-to-date: /home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+[55.181s] -- Old export file "/home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake" will be replaced.  Removing files [/home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-noconfig.cmake].
+[55.181s] -- Installing: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+[55.181s] -- Installing: /home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-noconfig.cmake
+[55.186s] Invoked command in '/home/chaung/f_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap_util

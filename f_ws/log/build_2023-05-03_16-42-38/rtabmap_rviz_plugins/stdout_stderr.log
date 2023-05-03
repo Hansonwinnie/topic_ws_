@@ -1,0 +1,29 @@
+[100%] Built target rtabmap_rviz_plugins
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins//rviz_plugins.xml
+-- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins//rviz_plugins.xml
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/rtabmap_rviz_plugins
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/rtabmap_rviz_plugins
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/path.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/path.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.bash
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.zsh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/packages/rtabmap_rviz_plugins
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rtabmap_rviz_plugins
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig-version.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.xml
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/include
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapCloudDisplay.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapGraphDisplay.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/visibility.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/InfoDisplay.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so
+-- Set runtime path of "/home/chaung/f_ws/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so" to ""

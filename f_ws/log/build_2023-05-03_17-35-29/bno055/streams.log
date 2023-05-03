@@ -1,0 +1,24 @@
+[0.942s] Invoking command in '/home/chaung/f_ws/build/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/chaung/f_ws/build/bno055/build
+[1.120s] running develop
+[1.242s] Invoked command in '/home/chaung/f_ws/build/bno055' returned '0': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/chaung/f_ws/build/bno055/build
+[1.245s] Invoking command in '/home/chaung/f_ws/src/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed
+[1.403s] running egg_info
+[1.403s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[1.403s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[1.403s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[1.403s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[1.404s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[1.431s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[1.432s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[1.432s] running build
+[1.432s] running build_py
+[1.432s] running install
+[1.432s] running install_lib
+[1.434s] running install_data
+[1.435s] running install_egg_info
+[1.435s] removing '/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055-0.4.1-py3.8.egg-info' (and everything under it)
+[1.436s] Copying ../../build/bno055/bno055.egg-info to /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055-0.4.1-py3.8.egg-info
+[1.436s] running install_scripts
+[1.447s] Installing bno055 script to /home/chaung/f_ws/install/bno055/lib/bno055
+[1.448s] writing list of installed files to '/home/chaung/f_ws/build/bno055/install.log'
+[1.466s] Invoked command in '/home/chaung/f_ws/src/bno055' returned '0': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed

@@ -1,0 +1,192 @@
+[0.023s] Invoking command in '/home/chaung/f_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_sync/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_slam -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_slam
+[0.070s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- The CXX compiler identification is GNU 9.4.0
+[0.125s] -- Check for working C compiler: /usr/bin/cc
+[0.184s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.185s] -- Detecting C compiler ABI info
+[0.236s] -- Detecting C compiler ABI info - done
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.314s] -- Detecting CXX compiler ABI info
+[0.378s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.420s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.420s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.571s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.611s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.671s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.696s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.889s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.952s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[1.170s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.192s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.226s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Looking for pthread.h
+[1.293s] -- Looking for pthread.h - found
+[1.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.358s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.358s] -- Looking for pthread_create in pthreads
+[1.403s] -- Looking for pthread_create in pthreads - not found
+[1.403s] -- Looking for pthread_create in pthread
+[1.457s] -- Looking for pthread_create in pthread - found
+[1.457s] -- Found Threads: TRUE  
+[1.562s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.600s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.608s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.615s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.787s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.841s] -- Found rtabmap_msgs: 0.21.1 (/home/chaung/f_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[1.946s] -- Found rtabmap_util: 0.21.1 (/home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+[2.359s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.392s] -- Checking for module 'eigen3'
+[2.403s] --   Found eigen3, version 3.3.7
+[2.427s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.427s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.483s] -- Checking for module 'flann'
+[2.495s] --   Found flann, version 1.9.1
+[2.524s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.566s] -- The imported target "vtkParseOGLExt" references the file
+[2.566s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.566s] but this file does not exist.  Possible reasons include:
+[2.566s] * The file was deleted, renamed, or moved to another location.
+[2.566s] * An install or uninstall procedure did not complete successfully.
+[2.566s] * The installation package was faulty and contained
+[2.567s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.567s] but not all the files it references.
+[2.567s] 
+[2.567s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.567s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.567s] but this file does not exist.  Possible reasons include:
+[2.567s] * The file was deleted, renamed, or moved to another location.
+[2.567s] * An install or uninstall procedure did not complete successfully.
+[2.567s] * The installation package was faulty and contained
+[2.567s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.567s] but not all the files it references.
+[2.567s] 
+[2.568s] -- The imported target "vtk" references the file
+[2.568s]    "/usr/bin/vtk"
+[2.568s] but this file does not exist.  Possible reasons include:
+[2.568s] * The file was deleted, renamed, or moved to another location.
+[2.568s] * An install or uninstall procedure did not complete successfully.
+[2.568s] * The installation package was faulty and contained
+[2.568s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.568s] but not all the files it references.
+[2.568s] 
+[2.568s] -- The imported target "pvtk" references the file
+[2.568s]    "/usr/bin/pvtk"
+[2.568s] but this file does not exist.  Possible reasons include:
+[2.568s] * The file was deleted, renamed, or moved to another location.
+[2.568s] * An install or uninstall procedure did not complete successfully.
+[2.568s] * The installation package was faulty and contained
+[2.568s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.568s] but not all the files it references.
+[2.568s] 
+[2.582s] -- Checking for module 'libusb-1.0'
+[2.593s] --   Found libusb-1.0, version 1.0.23
+[2.619s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.656s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.700s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.712s] -- Found libusb-1.0: /usr/include  
+[2.717s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.721s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.742s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.742s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.747s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.757s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.758s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.759s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.759s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.760s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.761s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.762s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.762s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.763s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.764s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.765s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.766s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.767s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.768s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.769s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.770s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.771s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.772s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.773s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.774s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.775s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.775s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.776s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.777s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.228s] -- Found rtabmap_sync: 0.21.1 (/home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[3.390s] CMake Warning at CMakeLists.txt:36 (find_package):
+[3.390s]   By not providing "Findoctomap_msgs.cmake" in CMAKE_MODULE_PATH this project
+[3.390s]   has asked CMake to find a package configuration file provided by
+[3.390s]   "octomap_msgs", but CMake did not find one.
+[3.390s] 
+[3.390s]   Could not find a package configuration file provided by "octomap_msgs" with
+[3.390s]   any of the following names:
+[3.390s] 
+[3.390s]     octomap_msgsConfig.cmake
+[3.391s]     octomap_msgs-config.cmake
+[3.391s] 
+[3.391s]   Add the installation prefix of "octomap_msgs" to CMAKE_PREFIX_PATH or set
+[3.391s]   "octomap_msgs_DIR" to a directory containing one of the above files.  If
+[3.391s]   "octomap_msgs" provides a separate development package or SDK, be sure it
+[3.391s]   has been installed.
+[3.391s] 
+[3.391s] 
+[3.468s] -- Configuring done
+[3.561s] -- Generating done
+[3.563s] -- Build files have been written to: /home/chaung/f_ws/build/rtabmap_slam
+[3.576s] Invoked command in '/home/chaung/f_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_sync/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_slam -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_slam
+[3.578s] Invoking command in '/home/chaung/f_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_sync/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_slam
+[3.613s] [35m[1mScanning dependencies of target rtabmap_slam_plugins[0m
+[3.742s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_slam_plugins.dir/src/CoreWrapper.cpp.o[0m
+[40.833s] [ 50%] [32m[1mLinking CXX shared library librtabmap_slam_plugins.so[0m
+[51.920s] [ 50%] Built target rtabmap_slam_plugins
+[51.931s] [35m[1mScanning dependencies of target rtabmap_node[0m
+[52.040s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_node.dir/src/CoreNode.cpp.o[0m
+[59.965s] [100%] [32m[1mLinking CXX executable rtabmap[0m
+[62.788s] [100%] Built target rtabmap_node
+[62.797s] Invoked command in '/home/chaung/f_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_sync/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/chaung/f_ws/build/rtabmap_slam
+[62.833s] Invoking command in '/home/chaung/f_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_sync/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap_slam
+[62.839s] -- Install configuration: ""
+[62.839s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.sh
+[62.839s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.dsv
+[62.839s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so
+[62.856s] -- Set runtime path of "/home/chaung/f_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so" to ""
+[62.856s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/lib/rtabmap_slam/rtabmap
+[62.857s] -- Set runtime path of "/home/chaung/f_ws/install/rtabmap_slam/lib/rtabmap_slam/rtabmap" to ""
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/include
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/include/rtabmap_slam
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/include/rtabmap_slam/CoreWrapper.h
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/include/rtabmap_slam/visibility.h
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/ament_index/resource_index/package_run_dependencies/rtabmap_slam
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/ament_index/resource_index/parent_prefix_path/rtabmap_slam
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.sh
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.dsv
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/environment/path.sh
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/environment/path.dsv
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.bash
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.sh
+[62.857s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.zsh
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.dsv
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/package.dsv
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/ament_index/resource_index/packages/rtabmap_slam
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/ament_index/resource_index/rclcpp_components/rtabmap_slam
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport-noconfig.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_targets-extras.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_libraries-extras.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+[62.858s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake
+[62.859s] -- Installing: /home/chaung/f_ws/install/rtabmap_slam/share/rtabmap_slam/package.xml
+[62.865s] Invoked command in '/home/chaung/f_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_util/lib:/home/chaung/f_ws/install/rtabmap_sync/lib:/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/chaung/f_ws/build/rtabmap_slam

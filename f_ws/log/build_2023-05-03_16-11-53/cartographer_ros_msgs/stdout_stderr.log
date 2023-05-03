@@ -1,0 +1,20 @@
+[  0%] Built target cartographer_ros_msgs__cpp
+[ 12%] Built target cartographer_ros_msgs__rosidl_generator_c
+[ 24%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_c
+[ 36%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_cpp
+[ 48%] Built target cartographer_ros_msgs__rosidl_typesupport_cpp
+[ 60%] Built target cartographer_ros_msgs__rosidl_typesupport_c
+[ 48%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[ 73%] [32m[1mLinking CXX shared library libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 84%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target cartographer_ros_msgs
+[ 85%] Built target cartographer_ros_msgs__py
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/cartographer_ros_msgs/libcartographer_ros_msgs__python.so[0m
+[ 96%] Built target cartographer_ros_msgs__python
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 99%] Built target cartographer_ros_msgs__rosidl_typesupport_c__pyext
+[ 99%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_c__pyext

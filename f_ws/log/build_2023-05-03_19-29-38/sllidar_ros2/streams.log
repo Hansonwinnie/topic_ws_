@@ -1,0 +1,63 @@
+[0.500s] Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2 -- -j12 -l12
+[0.573s] [35m[1mScanning dependencies of target sllidar_node[0m
+[0.604s] [ 14%] Built target sllidar_client
+[0.622s] [ 21%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[1.830s] In file included from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[1.830s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[1.831s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[1.831s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[1.831s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.831s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.831s]       |                [01;35m[K^[m[K
+[1.831s] In file included from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[1.831s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[1.831s]                  from [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[1.831s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.831s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.831s]       |                    [01;35m[K^[m[K
+[2.720s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)[m[K’:
+[2.720s] [01m[K/home/chaung/f_ws/src/sllidar_ros2/src/sllidar_node.cpp:147:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[2.720s]   147 |     [01;35m[K}[m[K
+[2.720s]       |     [01;35m[K^[m[K
+[3.603s] [ 28%] [32m[1mLinking CXX executable sllidar_node[0m
+[3.735s] [100%] Built target sllidar_node
+[3.749s] Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/chaung/f_ws/build/sllidar_ros2 -- -j12 -l12
+[3.800s] Invoking command in '/home/chaung/f_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2
+[3.807s] -- Install configuration: ""
+[3.807s] -- Execute custom install script
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/gmapping_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/gmapping_s2_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.808s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_gmapping_ros2.rviz
+[3.809s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.810s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.810s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.810s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.810s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.810s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.811s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.812s] -- Symlinking: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.823s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.824s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.824s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.824s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.824s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.824s] -- Up-to-date symlink: /home/chaung/f_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.832s] Invoked command in '/home/chaung/f_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/rtabmap_ros:/home/chaung/f_ws/install/rtabmap_launch:/home/chaung/f_ws/install/rtabmap_examples:/home/chaung/f_ws/install/rtabmap_demos:/home/chaung/f_ws/install/rtabmap_viz:/home/chaung/f_ws/install/rtabmap_slam:/home/chaung/f_ws/install/rtabmap_odom:/home/chaung/f_ws/install/rtabmap_util:/home/chaung/f_ws/install/rtabmap_sync:/home/chaung/f_ws/install/rtabmap_rviz_plugins:/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/rtabmap_python:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/dynamixel_sdk_examples:/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/chaung/f_ws/build/sllidar_ros2

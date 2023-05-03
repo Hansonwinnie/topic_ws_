@@ -1,0 +1,64 @@
+[0.068s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/chaung/f_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/slam_gmapping
+[0.094s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.110s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[0.150s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.434s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.464s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.839s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.854s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.927s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.931s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.644s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.654s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.694s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.784s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.855s] -- Found openslam_gmapping: 0.1.2 (/home/chaung/f_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.858s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.928s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.929s] -- Configured cppcheck include dirs: /home/chaung/f_ws/src/slam_gmapping/include
+[1.929s] -- Configured cppcheck exclude dirs and/or files: 
+[1.929s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.930s] -- Added test 'lint_cmake' to check CMake code style
+[1.930s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.931s] -- Added test 'uncrustify' to check C / C++ code style
+[1.931s] -- Configured uncrustify additional arguments: 
+[1.931s] -- Added test 'xmllint' to check XML markup files
+[1.934s] -- Configuring done
+[1.960s] -- Generating done
+[1.962s] -- Build files have been written to: /home/chaung/f_ws/build/slam_gmapping
+[1.971s] Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/chaung/f_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/slam_gmapping
+[1.974s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping
+[2.021s] [ 16%] [32m[1mLinking CXX executable scan_dilute[0m
+[2.032s] [ 33%] [32m[1mLinking CXX executable transform[0m
+[2.033s] [ 50%] [32m[1mLinking CXX executable slam_gmapping[0m
+[2.331s] [ 66%] Built target transform
+[2.340s] [ 83%] Built target scan_dilute
+[2.483s] [100%] Built target slam_gmapping
+[2.492s] Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/chaung/f_ws/build/slam_gmapping
+[2.515s] Invoking command in '/home/chaung/f_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/slam_gmapping
+[2.522s] -- Install configuration: ""
+[2.522s] -- Execute custom install script
+[2.523s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[2.530s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/lib/slam_gmapping/transform
+[2.539s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/lib/slam_gmapping/scan_dilute
+[2.547s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[2.555s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[2.562s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[2.570s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[2.577s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[2.584s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[2.591s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[2.598s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[2.606s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[2.614s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[2.623s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[2.631s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[2.640s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[2.648s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[2.657s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[2.666s] -- Symlinking: /home/chaung/f_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[2.679s] Invoked command in '/home/chaung/f_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/chaung/f_ws/build/slam_gmapping

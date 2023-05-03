@@ -1,0 +1,18 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chaung/f_ws/build/rtabmap_launch
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_launch/share/rtabmap_launch/launch/config/rgbd.rviz
+-- Up-to-date symlink: /home/chaung/f_ws/install/rtabmap_launch/share/rtabmap_launch/launch/rtabmap.launch.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/chaung/f_ws/src/rtabmap_ros/rtabmap_launch/launch/turtlebot3_scan.launch.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+

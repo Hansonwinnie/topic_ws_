@@ -1,0 +1,47 @@
+[ 22%] Built target rtabmap_sync_plugins
+[ 63%] Built target rtabmap_sync
+[ 72%] Built target rtabmap_stereo_sync
+[ 81%] Built target rtabmap_rgbdx_sync
+[ 90%] Built target rtabmap_rgbd_sync
+[100%] Built target rtabmap_rgb_sync
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+-- Symlinking: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+-- Set runtime path of "/home/chaung/f_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+-- Set runtime path of "/home/chaung/f_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/include
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+-- Installing: /home/chaung/f_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-noconfig.cmake

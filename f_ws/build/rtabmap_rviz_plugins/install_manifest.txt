@@ -1,0 +1,5 @@
+/home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapCloudDisplay.h
+/home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapGraphDisplay.h
+/home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/visibility.h
+/home/chaung/f_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/InfoDisplay.h
+/home/chaung/f_ws/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so

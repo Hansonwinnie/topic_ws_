@@ -1,0 +1,192 @@
+[0.080s] Invoking command in '/home/chaung/f_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/chaung/f_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap
+[0.817s] -- The C compiler identification is GNU 9.4.0
+[0.817s] -- The CXX compiler identification is GNU 9.4.0
+[0.817s] -- Check for working C compiler: /usr/bin/cc
+[0.817s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.818s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.818s] -- Detecting C compile features
+[0.818s] -- Detecting C compile features - done
+[0.818s] -- Check for working CXX compiler: /usr/bin/c++
+[0.818s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.818s] -- Detecting CXX compiler ABI info
+[0.898s] -- Detecting CXX compiler ABI info - done
+[0.911s] -- Detecting CXX compile features
+[0.913s] -- Detecting CXX compile features - done
+[0.916s] -- MOBILE_BUILD=OFF
+[1.008s] -- Checking for module 'eigen3'
+[1.034s] --   Found eigen3, version 3.3.7
+[1.099s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.099s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.224s] -- Checking for module 'libusb-1.0'
+[1.258s] --   Found libusb-1.0, version 1.0.23
+[1.310s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.394s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.463s] -- The imported target "vtkParseOGLExt" references the file
+[1.463s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.463s] but this file does not exist.  Possible reasons include:
+[1.463s] * The file was deleted, renamed, or moved to another location.
+[1.463s] * An install or uninstall procedure did not complete successfully.
+[1.463s] * The installation package was faulty and contained
+[1.463s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.464s] but not all the files it references.
+[1.464s] 
+[1.464s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.464s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.464s] but this file does not exist.  Possible reasons include:
+[1.464s] * The file was deleted, renamed, or moved to another location.
+[1.464s] * An install or uninstall procedure did not complete successfully.
+[1.464s] * The installation package was faulty and contained
+[1.464s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.465s] but not all the files it references.
+[1.465s] 
+[1.465s] -- The imported target "vtk" references the file
+[1.465s]    "/usr/bin/vtk"
+[1.465s] but this file does not exist.  Possible reasons include:
+[1.465s] * The file was deleted, renamed, or moved to another location.
+[1.465s] * An install or uninstall procedure did not complete successfully.
+[1.465s] * The installation package was faulty and contained
+[1.466s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.466s] but not all the files it references.
+[1.466s] 
+[1.466s] -- The imported target "pvtk" references the file
+[1.467s]    "/usr/bin/pvtk"
+[1.467s] but this file does not exist.  Possible reasons include:
+[1.467s] * The file was deleted, renamed, or moved to another location.
+[1.467s] * An install or uninstall procedure did not complete successfully.
+[1.467s] * The installation package was faulty and contained
+[1.467s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.467s] but not all the files it references.
+[1.467s] 
+[1.498s] -- Found libusb-1.0: /usr/include  
+[1.511s] -- Checking for module 'flann'
+[1.523s] --   Found flann, version 1.9.1
+[1.567s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.592s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.592s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.635s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.649s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.650s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.651s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.653s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.654s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.655s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.656s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.657s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.658s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.659s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.660s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.660s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.661s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.662s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.664s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.665s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[1.679s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[1.882s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.948s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.948s] -- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+[1.949s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.so
+[1.949s] -- Add PCL_OMP to definitions
+[1.949s] -- Found OpenCV: /usr/include/opencv4
+[1.949s] -- Found PCL: /usr/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include/x86_64-linux-gnu
+[1.949s] -- Found ZLIB: /usr/include
+[2.048s] -- VTK_RENDERING_BACKEND=OpenGL2
+[2.083s] -- Found OpenNI2: /usr/include/openni2
+[2.085s] -- Found DC1394: /usr/include/dc1394
+[2.093s] -- Could NOT find g2o (missing: g2o_DIR)
+[2.093s] -- RTAB-Map's cmake g2o find module used for convenience (for older g2o versions)
+[2.096s] -- Found CSPARSE: /usr/include/suitesparse  
+[2.140s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[2.140s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[2.140s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[2.140s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[2.140s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[2.189s] -- Found octomap 1.9.3: /usr/include
+[2.191s] -- Architecture: x86_64
+[2.200s] -- Performing Test COMPILER_SUPPORTS_CXX14
+[2.256s] -- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+[2.260s] -- Found Pthreads
+[2.261s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.322s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.322s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.380s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.381s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.441s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.518s] -- --------------------------------------------
+[2.519s] -- Info :
+[2.519s] --   RTAB-Map Version =     0.21.1
+[2.519s] --   CMAKE_VERSION =        3.16.3
+[2.519s] --   CMAKE_INSTALL_PREFIX = /home/chaung/f_ws/install/rtabmap
+[2.519s] --   CMAKE_BUILD_TYPE =     Release
+[2.519s] --   CMAKE_INSTALL_LIBDIR = lib
+[2.519s] --   BUILD_APP =            ON
+[2.519s] --   BUILD_TOOLS =          ON
+[2.519s] --   BUILD_EXAMPLES =       ON
+[2.519s] --   BUILD_SHARED_LIBS =    ON
+[2.519s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0  -fopenmp -std=c++14
+[2.519s] --   FLANN_KDTREE_MEM_OPT = OFF
+[2.519s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG;-DDISABLE_LIBUSB_1_0
+[2.520s] --   PCL_VERSION = 1.10.0
+[2.520s] -- 
+[2.520s] -- Optional dependencies ('*' affects some default parameters) :
+[2.520s] --  *With OpenCV 4.2.0 xfeatures2d = NO, nonfree = NO (License: BSD)
+[2.520s] --   With Qt 5.12.8            = YES (License: Open Source or Commercial)
+[2.520s] --   With VTK 7.1              = YES (License: BSD)
+[2.520s] --   With external SQLite3     = YES (License: Public Domain)
+[2.520s] --   With ORB OcTree           = YES (License: GPLv3)
+[2.520s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[2.520s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[2.520s] --   With Madgwick             = YES (License: GPL)
+[2.520s] --   With FastCV               = NO (FastCV not found)
+[2.520s] --   With PDAL                 = NO (PDAL not found)
+[2.520s] -- 
+[2.520s] --  Solvers:
+[2.520s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[2.520s] --  *With g2o                  = NO (g2o not found)
+[2.520s] --  *With GTSAM                = NO (GTSAM not found)
+[2.520s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[2.521s] --   With MRPT                 = NO (MRPT not found)
+[2.521s] --   With VERTIGO              = NO (GTSAM or g2o required)
+[2.521s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[2.521s] --  *With libpointmatcher      = NO (libpointmatcher not found)
+[2.521s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[2.521s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[2.521s] --   With OpenGV               = NO (OpenGV not found)
+[2.521s] -- 
+[2.521s] --  Reconstruction Approaches:
+[2.521s] --   With OCTOMAP 1.9.3        = YES (License: BSD)
+[2.521s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[2.521s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[2.521s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[2.521s] -- 
+[2.521s] --  Camera Drivers:
+[2.521s] --   With Freenect             = NO (libfreenect not found)
+[2.521s] --   With OpenNI2              = YES (License: Apache v2)
+[2.521s] --   With Freenect2            = NO (libfreenect2 not found)
+[2.521s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[2.521s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[2.521s] --   With dc1394               = YES (License: LGPL)
+[2.521s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[2.522s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[2.522s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[2.522s] --   With RealSense            = NO (librealsense not found)
+[2.522s] --   With RealSense2           = NO (librealsense2 not found)
+[2.522s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[2.522s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[2.522s] -- 
+[2.522s] --  Odometry Approaches:
+[2.522s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[2.522s] --   With floam                = NO (WITH_FLOAM=OFF)
+[2.522s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[2.522s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[2.522s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[2.522s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[2.522s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[2.522s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[2.522s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[2.522s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[2.522s] -- Show all options with: cmake -LA | grep WITH_
+[2.522s] -- --------------------------------------------
+[2.528s] -- Configuring done
+[2.789s] -- Generating done
+[2.794s] -- Build files have been written to: /home/chaung/f_ws/build/rtabmap

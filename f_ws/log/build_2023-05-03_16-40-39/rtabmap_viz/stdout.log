@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target rtabmap_viz[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rtabmap_viz[0m
+[100%] Built target rtabmap_viz

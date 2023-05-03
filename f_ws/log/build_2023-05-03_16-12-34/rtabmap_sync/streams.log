@@ -1,0 +1,113 @@
+[0.021s] Invoking command in '/home/chaung/f_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/rtabmap_conversions:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy:/home/chaung/f_ws/install/rtabmap_msgs:/home/chaung/f_ws/install/rtabmap:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chaung/f_ws/install/rtabmap_conversions/lib:/home/chaung/f_ws/install/rtabmap_msgs/lib:/home/chaung/f_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chaung/f_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap_msgs/lib/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chaung/f_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chaung/f_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chaung/f_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/chaung/f_ws/src/rtabmap_ros/rtabmap_sync -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/rtabmap_sync
+[0.065s] -- The C compiler identification is GNU 9.4.0
+[0.105s] -- The CXX compiler identification is GNU 9.4.0
+[0.110s] -- Check for working C compiler: /usr/bin/cc
+[0.156s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.157s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.212s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.271s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.338s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.360s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.621s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.644s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.715s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.900s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.901s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.902s] -- Looking for pthread.h
+[0.959s] -- Looking for pthread.h - found
+[0.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.015s] -- Looking for pthread_create in pthreads
+[1.057s] -- Looking for pthread_create in pthreads - not found
+[1.057s] -- Looking for pthread_create in pthread
+[1.110s] -- Looking for pthread_create in pthread - found
+[1.111s] -- Found Threads: TRUE  
+[1.260s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.317s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.355s] -- Found rtabmap_conversions: 0.21.1 (/home/chaung/f_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[1.950s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.986s] -- Checking for module 'eigen3'
+[1.996s] --   Found eigen3, version 3.3.7
+[2.017s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.017s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.067s] -- Checking for module 'libusb-1.0'
+[2.078s] --   Found libusb-1.0, version 1.0.23
+[2.103s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.140s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.180s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.225s] -- The imported target "vtkParseOGLExt" references the file
+[2.225s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.226s] but this file does not exist.  Possible reasons include:
+[2.226s] * The file was deleted, renamed, or moved to another location.
+[2.226s] * An install or uninstall procedure did not complete successfully.
+[2.226s] * The installation package was faulty and contained
+[2.226s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.226s] but not all the files it references.
+[2.226s] 
+[2.226s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.226s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.226s] but this file does not exist.  Possible reasons include:
+[2.226s] * The file was deleted, renamed, or moved to another location.
+[2.226s] * An install or uninstall procedure did not complete successfully.
+[2.226s] * The installation package was faulty and contained
+[2.226s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.226s] but not all the files it references.
+[2.226s] 
+[2.227s] -- The imported target "vtk" references the file
+[2.227s]    "/usr/bin/vtk"
+[2.227s] but this file does not exist.  Possible reasons include:
+[2.227s] * The file was deleted, renamed, or moved to another location.
+[2.227s] * An install or uninstall procedure did not complete successfully.
+[2.227s] * The installation package was faulty and contained
+[2.227s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.227s] but not all the files it references.
+[2.227s] 
+[2.227s] -- The imported target "pvtk" references the file
+[2.227s]    "/usr/bin/pvtk"
+[2.227s] but this file does not exist.  Possible reasons include:
+[2.227s] * The file was deleted, renamed, or moved to another location.
+[2.227s] * An install or uninstall procedure did not complete successfully.
+[2.227s] * The installation package was faulty and contained
+[2.227s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.227s] but not all the files it references.
+[2.227s] 
+[2.242s] -- Found libusb-1.0: /usr/include  
+[2.253s] -- Checking for module 'flann'
+[2.264s] --   Found flann, version 1.9.1
+[2.291s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.305s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.305s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.329s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.333s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.343s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.344s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.345s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.346s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.347s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.348s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.349s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.349s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.350s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.351s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.352s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.352s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.353s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.354s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.355s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.380s] -- RTABMAP_SYNC_MULTI_RGBD = OFF
+[2.380s] -- RTABMAP_SYNC_USER_DATA  = OFF
+[2.564s] -- Configuring done
+[2.805s] -- Generating done
+[2.807s] -- Build files have been written to: /home/chaung/f_ws/build/rtabmap_sync

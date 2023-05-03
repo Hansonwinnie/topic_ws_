@@ -1,0 +1,97 @@
+[0.011s] Invoking command in '/home/chaung/f_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros -- -j12 -l12
+[0.046s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.253s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[0.254s] -- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[0.255s] -- Found required Ceres dependency: glog
+[0.258s] -- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[0.258s] -- Detected gflags version: 2.2.2
+[0.259s] -- Found required Ceres dependency: gflags
+[0.260s] -- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[0.262s] -- Build type: Release
+[0.263s] -- Found cartographer_ros_msgs: 1.0.9003 (/home/chaung/f_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.600s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.827s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.829s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.959s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.969s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.235s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.239s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.305s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.320s] -- looking for PCL_COMMON
+[1.421s] -- Configuring done
+[1.512s] -- Generating done
+[1.514s] -- Build files have been written to: /home/chaung/f_ws/build/cartographer_ros
+[1.562s] [  0%] Built target cartographer_ros_detect_changes
+[1.597s] [ 68%] Built target cartographer_ros
+[1.626s] [ 78%] Built target pbstream_to_ros_map_node
+[1.629s] [ 89%] Built target occupancy_grid_node
+[1.629s] [100%] Built target cartographer_node
+[1.636s] Invoked command in '/home/chaung/f_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros -- -j12 -l12
+[1.671s] Invoking command in '/home/chaung/f_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer_ros
+[1.683s] -- Install configuration: "Release"
+[1.684s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files
+[1.684s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[1.684s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[1.684s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[1.684s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/turtlebot3_lds_2d.lua
+[1.685s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[1.685s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/occupancy_grid.launch.py
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/cartographer.launch.py
+[1.686s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/lib/cartographer_ros/cartographer.launch.py
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[1.687s] -- Installing: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[1.687s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[1.688s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[1.688s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[1.688s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/lib/cartographer_ros/occupancy_grid_node
+[1.688s] -- Up-to-date: /home/chaung/f_ws/install/cartographer_ros/lib/cartographer_ros/pbstream_to_ros_map_node
+[1.692s] Invoked command in '/home/chaung/f_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/chaung/f_ws/build/cartographer_ros

@@ -1,0 +1,21 @@
+[0.594s] Invoking command in '/home/chaung/f_ws/src/bno055': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed
+[0.749s] running egg_info
+[0.749s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[0.773s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[0.774s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[0.774s] running build
+[0.774s] running build_py
+[0.775s] running install
+[0.775s] running install_lib
+[0.777s] running install_data
+[0.777s] running install_egg_info
+[0.778s] removing '/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055-0.4.1-py3.8.egg-info' (and everything under it)
+[0.778s] Copying ../../build/bno055/bno055.egg-info to /home/chaung/f_ws/install/bno055/lib/python3.8/site-packages/bno055-0.4.1-py3.8.egg-info
+[0.779s] running install_scripts
+[0.792s] Installing bno055 script to /home/chaung/f_ws/install/bno055/lib/bno055
+[0.793s] writing list of installed files to '/home/chaung/f_ws/build/bno055/install.log'
+[0.812s] Invoked command in '/home/chaung/f_ws/src/bno055' returned '0': PYTHONPATH=/home/chaung/f_ws/build/bno055/prefix_override:/home/chaung/f_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/chaung/f_ws/build/bno055/build install --record /home/chaung/f_ws/build/bno055/install.log --single-version-externally-managed

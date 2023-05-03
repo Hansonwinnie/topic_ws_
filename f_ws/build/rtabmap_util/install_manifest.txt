@@ -1,0 +1,6 @@
+/home/chaung/f_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so
+/home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+/home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util/visibility.h
+/home/chaung/f_ws/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+/home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+/home/chaung/f_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-noconfig.cmake

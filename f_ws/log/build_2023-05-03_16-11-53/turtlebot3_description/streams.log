@@ -1,0 +1,17 @@
+[0.073s] Invoking command in '/home/chaung/f_ws/build/turtlebot3_description': /usr/bin/cmake /home/chaung/f_ws/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/turtlebot3_description
+[0.818s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.818s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.818s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.818s] -- Configuring incomplete, errors occurred!
+[0.819s] See also "/home/chaung/f_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".
+[0.832s] CMake Error: File /home/chaung/f_ws/src/turtlebot3/turtlebot3/turtlebot3_description/package.xml does not exist.
+[0.832s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[0.832s]   configure_file Problem configuring file
+[0.832s] Call Stack (most recent call first):
+[0.832s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[0.832s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.832s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.832s]   CMakeLists.txt:31 (ament_package)
+[0.833s] 
+[0.833s] 
+[0.882s] Invoked command in '/home/chaung/f_ws/build/turtlebot3_description' returned '1': /usr/bin/cmake /home/chaung/f_ws/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/turtlebot3_description

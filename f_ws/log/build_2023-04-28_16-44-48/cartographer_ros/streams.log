@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/chaung/f_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/half/install/cartographer_ros_msgs:/home/chaung/half/install/v_bot_control:/home/chaung/half/install/sllidar_ros2:/home/chaung/half/install/openslam_gmapping:/home/chaung/half/install/nav_2d_msgs:/home/chaung/half/install/nav2_common:/home/chaung/half/install/cartographer_ros:/home/chaung/half/install/cartographer:/home/chaung/f_ws/install/bno055:/home/chaung/half/install/slam_gmapping:/home/chaung/half/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/cartographer_ros_msgs/lib:/home/chaung/f_ws/install/openslam_gmapping/lib:/home/chaung/half/install/openslam_gmapping/lib:/home/chaung/half/install/nav_2d_msgs/lib:/home/chaung/half/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/chaung/f_ws/build/cartographer_ros -- -j12 -l12
+[0.045s] [35m[1mScanning dependencies of target cartographer_ros_detect_changes[0m
+[0.045s] [35m[1mScanning dependencies of target cartographer_ros[0m
+[0.055s] [  0%] Built target cartographer_ros_detect_changes
+[0.165s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node.cc.o[0m
+[0.165s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/msg_conversion.cc.o[0m
+[0.165s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/map_builder_bridge.cc.o[0m
+[0.166s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node_constants.cc.o[0m
+[0.166s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node_options.cc.o[0m
+[0.166s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/sensor_bridge.cc.o[0m
+[0.166s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_log_sink.cc.o[0m
+[0.167s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/tf_bridge.cc.o[0m
+[0.167s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/trajectory_options.cc.o[0m
+[0.167s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/time_conversion.cc.o[0m
+[0.167s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/submap.cc.o[0m
+[0.173s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_map.cc.o[0m
+[26.843s] [ 68%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[26.913s] [ 68%] Built target cartographer_ros
+[26.920s] [35m[1mScanning dependencies of target occupancy_grid_node[0m
+[26.920s] [35m[1mScanning dependencies of target pbstream_to_ros_map_node[0m
+[26.920s] [35m[1mScanning dependencies of target cartographer_node[0m
+[26.971s] [ 73%] [32mBuilding CXX object cartographer_ros/CMakeFiles/pbstream_to_ros_map_node.dir/pbstream_to_ros_map_main.cc.o[0m
+[26.977s] [ 78%] [32mBuilding CXX object cartographer_ros/CMakeFiles/occupancy_grid_node.dir/occupancy_grid_node_main.cc.o[0m
+[26.985s] [ 84%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_node.dir/node_main.cc.o[0m
+[30.731s] [ 89%] [32m[1mLinking CXX executable pbstream_to_ros_map_node[0m
+[31.046s] [ 89%] Built target pbstream_to_ros_map_node
+[33.028s] [ 94%] [32m[1mLinking CXX executable cartographer_node[0m
+[33.337s] [ 94%] Built target cartographer_node
+[37.216s] [100%] [32m[1mLinking CXX executable occupancy_grid_node[0m
+[37.412s] [100%] Built target occupancy_grid_node

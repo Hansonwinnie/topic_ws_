@@ -1,0 +1,79 @@
+[0.014s] Invoking command in '/home/chaung/f_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chaung/f_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/chaung/f_ws/src/utils/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/dynamixel_sdk_examples
+[0.055s] -- The C compiler identification is GNU 9.4.0
+[0.103s] -- The CXX compiler identification is GNU 9.4.0
+[0.107s] -- Check for working C compiler: /usr/bin/cc
+[0.156s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.157s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.280s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.348s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.374s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.539s] -- Found dynamixel_sdk: 3.7.40 (/home/chaung/f_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.541s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.657s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.800s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.803s] -- Looking for pthread.h
+[0.852s] -- Looking for pthread.h - found
+[0.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.908s] -- Looking for pthread_create in pthreads
+[0.949s] -- Looking for pthread_create in pthreads - not found
+[0.949s] -- Looking for pthread_create in pthread
+[1.000s] -- Looking for pthread_create in pthread - found
+[1.001s] -- Found Threads: TRUE  
+[1.144s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.234s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.235s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.235s] -- Configured cppcheck include dirs: /home/chaung/f_ws/src/utils/DynamixelSDK/dynamixel_sdk_examples/include
+[1.235s] -- Configured cppcheck exclude dirs and/or files: 
+[1.237s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.237s] -- Configured cpplint exclude dirs and/or files: 
+[1.238s] -- Added test 'lint_cmake' to check CMake code style
+[1.239s] -- Added test 'uncrustify' to check C / C++ code style
+[1.239s] -- Configured uncrustify additional arguments: 
+[1.240s] -- Added test 'xmllint' to check XML markup files
+[1.245s] -- Configuring done
+[1.254s] -- Generating done
+[1.256s] -- Build files have been written to: /home/chaung/f_ws/build/dynamixel_sdk_examples
+[1.274s] Invoked command in '/home/chaung/f_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chaung/f_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/chaung/f_ws/src/utils/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaung/f_ws/install/dynamixel_sdk_examples
+[1.275s] Invoking command in '/home/chaung/f_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chaung/f_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chaung/f_ws/build/dynamixel_sdk_examples
+[1.320s] [35m[1mScanning dependencies of target read_write_node[0m
+[1.416s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[8.421s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[8.741s] [100%] Built target read_write_node
+[8.763s] Invoked command in '/home/chaung/f_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chaung/f_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chaung/f_ws/build/dynamixel_sdk_examples
+[8.809s] Invoking command in '/home/chaung/f_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chaung/f_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chaung/f_ws/build/dynamixel_sdk_examples
+[8.829s] -- Install configuration: ""
+[8.829s] -- Execute custom install script
+[8.829s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[8.854s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[8.872s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[8.885s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[8.896s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[8.907s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[8.918s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[8.929s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[8.952s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[8.966s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[8.995s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[9.006s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[9.018s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[9.031s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[9.053s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[9.078s] -- Symlinking: /home/chaung/f_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[9.098s] Invoked command in '/home/chaung/f_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces:/home/chaung/f_ws/install/dynamixel_sdk:/home/chaung/f_ws/install/turtlebot3_msgs:/home/chaung/f_ws/install/sllidar_ros2:/home/chaung/f_ws/install/slam_gmapping:/home/chaung/f_ws/install/hls_lfcd_lds_driver:/home/chaung/f_ws/install/cartographer_ros:/home/chaung/f_ws/install/cartographer_ros_msgs:/home/chaung/f_ws/install/cartographer:/home/chaung/f_ws/install/openslam_gmapping:/home/chaung/f_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chaung/f_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaung/f_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chaung/f_ws/build/dynamixel_sdk_examples

@@ -1,0 +1,266 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning at CMakeLists.txt:117 (add_executable):
+  Cannot generate a safe runtime search path for target rtabmap_rgbd_relay
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:147 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_xyz because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:152 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_xyzrgb because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:122 (add_executable):
+  Cannot generate a safe runtime search path for target rtabmap_rgbd_split
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:172 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_obstacles_detection because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:142 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_lidar_deskewing because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:167 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_pointcloud_to_depthimage because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:177 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_aggregator because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:94 (add_library):
+  Cannot generate a safe runtime search path for target rtabmap_util_plugins
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:182 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_assembler because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning at CMakeLists.txt:117 (add_executable):
+  Cannot generate a safe runtime search path for target rtabmap_rgbd_relay
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:147 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_xyz because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:152 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_xyzrgb because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:122 (add_executable):
+  Cannot generate a safe runtime search path for target rtabmap_rgbd_split
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:172 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_obstacles_detection because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:142 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_lidar_deskewing because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:167 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_pointcloud_to_depthimage because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:177 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_aggregator because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:94 (add_library):
+  Cannot generate a safe runtime search path for target rtabmap_util_plugins
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:182 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rtabmap_point_cloud_assembler because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+
